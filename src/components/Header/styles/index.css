@@ -1,0 +1,25 @@
+.header{
+    height: 700px;
+    background-image: url('../../../assets/header.png');
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.hero-content {
+    max-width: 500px;
+}
+.hero-content-paragraph{
+    text-align: justify;
+
+}
+.hero-content-paragraph span{
+    color: #FF985B;
+}
+.hero{
+    height: 605px;
+}
+
+.test {
+    filter: blur(80px) !important;
+    background-color: #DB3F53 !important;
+}

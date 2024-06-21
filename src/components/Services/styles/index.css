@@ -1,0 +1,77 @@
+.options-container {
+    height: 440px;
+   width: 624px;
+    /* width: 100%; */
+}
+
+.options-first, .options-second, .options-third, .options-forth{
+  
+    /* width: 50%; */
+    width: 258px;
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.8);
+    border-radius: 12px;
+   padding: 8px;
+    height: 209px;
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+    z-index: 20;
+}
+.options-second {
+    left: 280px ;
+    /* left:54%; */
+
+}
+.options-third {
+    left: 54px;
+    /* left: 10.54%; */
+    bottom: 0px;
+}
+.options-forth {
+    left: 334px;
+    /* left: 65.23%; */
+    bottom: 0px;
+}
+
+.options-icon{
+    width: 65px;
+    height: 65px;
+    background-color: rgba(34, 34, 34, 0.9);
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+
+}
+.grader {
+    position: absolute;
+    background-image: url("../../../assets/grader.png");
+    width: 471px;
+  
+    height: 419px;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0.6;
+}
+
+@media only screen and (max-width : 1280px)  {
+    
+    .options-second, .options-first, .options-forth, .options-third {
+        width: 230px;
+        height: 180px;
+    }
+    .options-second {
+        left: 242px;
+    }
+    .options-third {
+        left: 30px;
+    }
+    .options-forth{
+        left: 270px;
+    }
+    .options-container {
+        height: 371px;
+        width: 500px;
+    }
+    
+}
